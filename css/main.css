@@ -105,6 +105,13 @@ a:hover{ opacity: .8; }
 	border-radius: 5px;
 }
 
+.map{
+	max-width: 400%;
+	margin: 1em auto 0;
+	
+	border: 0;
+}
+
 footer{ margin: 0; }
 
 footer img{
