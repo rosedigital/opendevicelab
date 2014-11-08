@@ -16,31 +16,36 @@ body{
 
 .wrapper{
 	overflow: hidden; /* clearfix */
-	padding: .5em;
+	padding: 0 .5em;
 	margin: 0 auto;
 }
 
-@media (min-width: 700px){ .wrapper{ width: 80%; } }
+@media (min-width: 400px){ .wrapper{ width: 95%; } }
+@media (min-width: 700px){ .wrapper{ width: 85%; } }
 @media (min-width: 1000px){ .wrapper{ width: 75%; } }
-@media (min-width: 1300px){ .wrapper{ width: 60%; } }
+@media (min-width: 1300px){ .wrapper{ width: 65%; } }
 
 header{ background: #ffd660; }
 
 header h1{
 	margin: 0;
+	padding: .25em 0;
 
 	font-weight: 700;
 }
 
 main{ padding-bottom: 1.5em; }
 
-section{ padding: 0 .75em; }
+section{ padding: 0 .25em; }
 
 @media (min-width: 700px){
 	section:nth-child(n+2){
 		float: left;
 		width: 50%;
 	}
+
+	section:nth-child(2){ padding-right: 1em; }
+	section:nth-child(3){ padding-left: 1em; }
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -106,7 +111,7 @@ a:hover{ opacity: .8; }
 }
 
 .map{
-	max-width: 400%;
+	width: 100%;
 	margin: 1em auto 0;
 	
 	border: 0;
