@@ -29,9 +29,56 @@ header{ background: #ffd660; }
 
 header h1{
 	margin: 0;
-	padding: .25em 0;
+	margin-bottom: .25em;
 
 	font-weight: 700;
+}
+
+.maintained-by{
+	margin-top: .5em;
+	display: block;
+
+	font-size: .75em;
+	color: #333;
+}
+
+.rose{
+	display: inline-block;
+}
+
+@media (min-width: 750px){
+	header h1{
+		float: left;
+		width: 70%;
+	}
+
+	.maintained-by{
+		float: right;
+		width: 30%;
+	}
+
+	.rose{
+		width: 2.5em;
+		height: 2.5em;
+		
+		line-height: 3.25em;
+		text-indent: -99999px; /* hide text */
+
+		background: no-repeat center;
+		background-size: 100%;
+
+		background-image: url('./img/rose-logo-square.png');
+		background-image: url('../img/rose-logo-square.svg'), none;
+	}
+}
+
+@media (min-width: 850px){
+	.rose{
+		width: 5em;
+
+		background-image: url('./img/rose-logo.png');
+		background-image: url('../img/rose-logo.svg'), none;
+	}
 }
 
 main{ padding-bottom: 1.5em; }
