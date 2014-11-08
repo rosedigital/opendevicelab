@@ -46,7 +46,7 @@ header h1{
 	display: inline-block;
 }
 
-@media (min-width: 750px){
+@media (min-width: 800px){
 	header h1{
 		float: left;
 		width: 70%;
@@ -58,7 +58,7 @@ header h1{
 	}
 
 	.rose{
-		width: 2.5em;
+		width: 5em;
 		height: 2.5em;
 		
 		line-height: 3.25em;
@@ -66,15 +66,6 @@ header h1{
 
 		background: no-repeat center;
 		background-size: 100%;
-
-		background-image: url('./img/rose-logo-square.png');
-		background-image: url('../img/rose-logo-square.svg'), none;
-	}
-}
-
-@media (min-width: 850px){
-	.rose{
-		width: 5em;
 
 		background-image: url('./img/rose-logo.png');
 		background-image: url('../img/rose-logo.svg'), none;
