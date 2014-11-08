@@ -1,10 +1,10 @@
 # opendevicelab
 
-http://odl.rose.digital
+[odl.rose.digital](http://odl.rose.digital)
 
 Open Device Lab Portsmouth
 
-This is just starting up so feel free to show your interest here or email us: odl@rosedigital.co.uk
+This is just starting up so feel free to show your interest here or email us: [odl@rosedigital.co.uk](mailto:odl@rosedigital.co.uk)
 
 ## Development
 
