@@ -25,28 +25,50 @@ body{
 @media (min-width: 1000px){ .wrapper{ width: 75%; } }
 @media (min-width: 1300px){ .wrapper{ width: 65%; } }
 
-header{ background: #ffd660; }
+header{ background: #ea5224; }
 
 header h1{
-	margin: 0;
-	margin-bottom: .25em;
+	margin: .25em 0;
+	padding-left: 48px;
 
+	color: #f5f5f5;
+	text-shadow: 0 2px 0 #d04014;
 	font-weight: 700;
+	line-height: 48px;
+
+	background: no-repeat left center;
+	background-image: url('../img/48x48.png');
+	background-image: url('../img/48x48.svg'), none;
+	background-size: auto 48px;
 }
 
-.maintained-by{
-	margin-top: .5em;
+header h1 small,
+header h1 span{
+	margin: 0;
 	display: block;
+	line-height: 1em;
+}
+
+header h1 small{
+	font-size: .45em;
+	text-shadow: 0 1px 0 #d04014;
+}
+
+.maintained-by{	
+	display: block;
+	padding: 0 .5em;
+	margin: .5em 0;
+	margin-top: 0;
 
 	font-size: .75em;
-	color: #333;
+	color: #f5f5f5;
 }
 
 .rose{
 	display: inline-block;
 }
 
-@media (min-width: 800px){
+@media (min-width: 400px){
 	header h1{
 		float: left;
 		width: 70%;
@@ -55,6 +77,9 @@ header h1{
 	.maintained-by{
 		float: right;
 		width: 30%;
+		margin: 1em 0;
+
+		text-align: center;
 	}
 
 	.rose{
@@ -90,9 +115,13 @@ section{ padding: 0 .25em; }
 h1, h2, h3, h4, h5, h6{
 	margin-bottom: .25em;
 	
-	font-weight: 600;
+	font-weight: 700;
 	font-family: Dosis;
 	text-transform: uppercase;
+}
+
+h2{
+	color: #ea5224;
 }
 
 p{ line-height: 1.45; }
@@ -126,7 +155,7 @@ li{
 }
 
 a{
-	color: #6073FF;
+	color: #141ED0;
 	text-decoration: none;
 
 	transition: opacity .15s;
@@ -143,9 +172,9 @@ a:hover{ opacity: .8; }
 	font-size: 1.25em;
 	font-weight: 600;
 	font-family: Dosis;
-	color: #333;
+	color: #f5f5f5;
 
-	background-color: #D0FF60;
+	background-color: #5FB823;
 	border-radius: 5px;
 }
 
