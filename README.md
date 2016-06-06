@@ -1,10 +1,8 @@
 # opendevicelab
 
-[odl.rose.digital](http://odl.rose.digital)
-
 Open Device Lab Portsmouth
 
-This is just starting up so feel free to show your interest here or email us: [odl@rosedigital.co.uk](mailto:odl@rosedigital.co.uk)
+_While there isn't any device lab and ROSE Digital have stopped trading, we may be able to give some pointers. Can email Zac: hi@zaccolley.com_
 
 ## Development
 
